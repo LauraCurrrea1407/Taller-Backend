@@ -1,0 +1,19 @@
+.imagen{
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
+  width: 60%;
+  border: 1px solid #ffffff;
+  transition: transform 0.3s ease;
+}
+
+.imagen img{
+  width: 100%;
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+}
+
+.imagen:hover{
+  transform: scale(1.1);
+}
